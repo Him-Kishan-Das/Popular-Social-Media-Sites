@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(./img/pexels-czapp-árpád-10774598.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    background-blend-mode: darken;
+}
+
+.heading{
+    text-align: center;
+    color: rgb(224, 251, 71);
+    font-size: 60px;
+    padding: 160px 0px;
+}
+
+.box{
+    position: relative;
+    margin: auto;
+    width: 47%;
+    border: white solid 2px;
+    background-color: rgba(14, 13, 13, 0.733);
+    border-radius: 8px;
+    display: none;
+}
+
+.title{
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 70px;
+}
+img{
+    width: 105px;
+    position: absolute;
+    left: 45%;
+    top: -12%;
+
+}
+
+p{
+    margin: 27px;
+    padding: 15px 0px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.next{
+    position: absolute;
+    cursor: pointer;
+    color: red;
+    font-size: 60px;
+    border: solid orangered;
+    border-radius: 50%;
+    background-color: rgba(255, 214, 214, 0.384);
+    width: 50px;
+    padding: 2px;
+    right: 23%;
+    top: 52%;
+}
+
+button:hover{
+    color: white;
+    background-color: orangered;
+    transition: 1s;
+}
+
+.prev{
+    position: absolute;
+    cursor: pointer;
+    color: red;
+    font-size: 60px;
+    border: solid orangered;
+    border-radius: 50%;
+    background-color: rgba(255, 214, 214, 0.384);
+    width: 50px;
+    padding: 2px;
+    left: 23%;
+    top: 54%;
+}
