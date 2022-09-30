@@ -14,8 +14,8 @@ body{
 .heading{
     text-align: center;
     color: rgb(224, 251, 71);
-    font-size: 60px;
-    padding: 160px 0px;
+    font-size: 40px;
+    padding: 80px 0px;
 }
 
 .box{
@@ -29,13 +29,13 @@ body{
 }
 
 .title{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 300;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 img{
-    width: 105px;
+    width: 75px;
     position: absolute;
     left: 45%;
     top: -12%;
@@ -44,8 +44,8 @@ img{
 
 p{
     margin: 27px;
-    padding: 15px 0px;
-    font-size: 35px;
+    padding: 10px 0px;
+    font-size: 23px;
     text-align: center;
 }
 
@@ -53,13 +53,13 @@ p{
     position: absolute;
     cursor: pointer;
     color: red;
-    font-size: 60px;
+    font-size: 40px;
     border: solid orangered;
     border-radius: 50%;
     background-color: rgba(255, 214, 214, 0.384);
-    width: 50px;
+    width: 47px;
     padding: 2px;
-    right: 23%;
+    right: 22%;
     top: 52%;
 }
 
@@ -73,12 +73,12 @@ button:hover{
     position: absolute;
     cursor: pointer;
     color: red;
-    font-size: 60px;
+    font-size: 40px;
     border: solid orangered;
     border-radius: 50%;
     background-color: rgba(255, 214, 214, 0.384);
-    width: 50px;
+    width: 47px;
     padding: 2px;
-    left: 23%;
-    top: 54%;
+    left: 22%;
+    top: 52%;
 }
